@@ -39,28 +39,6 @@ class ApiModule {
                 )
             )
             .build()
-
-        /*val interceptor =
-            HttpLoggingInterceptor().setLevel(HttpLoggingInterceptor.Level.BODY)
-        interceptor.setLevel(HttpLoggingInterceptor.Level.BODY)
-        var okHttpClient = OkHttpClient().newBuilder()
-            .connectTimeout(120, TimeUnit.SECONDS)
-            .readTimeout(120, TimeUnit.SECONDS)
-            .addInterceptor(interceptor)
-            .writeTimeout(120, TimeUnit.SECONDS)
-            .build()
-        return Retrofit.Builder()
-            .baseUrl(ApiEndpointConstants.baseUrl())
-            .client(okHttpClient)
-            .addConverterFactory(
-                TikXmlConverterFactory.create(
-                    TikXml.Builder()
-                        .exceptionOnUnreadXml(false)
-                        .addTypeConverter(String.javaClass, HtmlEscapeStringConverter())
-                        .build()
-                )
-            )
-            .build()*/
     }
 
     @Singleton
