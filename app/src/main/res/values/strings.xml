@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ItunesApp</string>
+    <string name="toolbar_header">Itunes Songs</string>
+    <string name="toolbar_header_details">Song Details</string>
+    <string name="btn_play">Play</string>
+    <string name="btn_pause">Pause</string>
+    <string name="no_internet_msg">Please check your internet connection and try again later</string>
+</resources>
